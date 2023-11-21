@@ -1,0 +1,49 @@
+A Terra Média está prestes a entrar em guerra. As forças do bem travarão muitas batalhas com as forças do mal. 
+Diferentes raças certamente estarão envolvidas. Cada raça tem um certo worth ao lutar contra outras. 
+
+Do lado do bem temos as seguintes raças, com seus worth associados:
+
+Hobbits: 1
+Homens: 2
+Elfos: 3
+Anões: 3
+Águias: 4
+Feiticeiros: 10
+
+
+Do lado do mal temos:
+
+Orcs: 1
+Homens: 2
+Wargs: 2
+Duendes: 2
+Uruk: 3
+Trolls: 5
+Feiticeiros: 10
+
+Embora o clima, a localização, os suprimentos e o valor desempenhem um papel em qualquer batalha, se você somar o valor 
+do lado do bem e compará-lo com o valor do lado do mal, o lado com maior valor tenderá a vencer.
+
+Assim, dada a contagem de cada uma das raças do lado do bem, seguida da contagem
+de cada uma das raças do lado do mal, determine qual lado vence.
+
+Entrada:
+A função receberá dois parâmetros. Cada parâmetro será uma sequência de vários números inteiros separados
+por um único espaço. Cada string conterá a contagem de cada raça do lado do bem e do mal.
+
+O primeiro parâmetro conterá a contagem de cada raça do lado do bem na seguinte ordem:
+
+Hobbits, Homens, Elfos, Anões, Águias, Magos.
+
+O segundo parâmetro conterá a contagem de cada raça do lado do mal na seguinte ordem:
+
+Orcs, Homens, Wargs, Goblins, Uruk Hai, Trolls, Magos.
+
+Todos os valores são números inteiros não negativos. A soma resultante do valor de cada lado 
+não excederá o limite de um número inteiro de 32 bits.
+
+Saída:
+Retorna "Battle Result: Good triumphs over Evil" se o bem vencer, 
+"Battle Result: Evil eradicates all trace of Good" se o mal vencer ou 
+"Battle Result: No victor on this battle field" se terminar empatado.
+< /span>
